@@ -125,6 +125,5 @@ const serverPort = cs304.getPort(8080);
 
 // this is last, because it never returns
 app.listen(serverPort, function() {
-    console.log("running")
     console.log(`open http://localhost:${serverPort}`);
 });
